@@ -1,0 +1,41 @@
+.image {
+  border-radius: 32px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.tile {
+  flex: 0 31%;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.tileName {
+  color: #54595F;
+  font-size: 24px;
+  font-family: "Montserrat SemiBold", Helvetica, sans-serif;
+  opacity: 1;
+  position: absolute;
+  display: none;
+  width: 80%;
+  bottom: 10%;
+  left: 10%;
+}
+
+.tile:hover img {
+  opacity: .2;
+}
+
+.tile:hover div {
+  display: block;
+  animation-name: on-hover;
+  animation-duration: .4s;
+}
+
+@keyframes on-hover {
+  from {bottom: 0%;}
+  to {bottom: 10%;}
+}
+  
+  

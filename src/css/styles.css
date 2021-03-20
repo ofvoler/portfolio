@@ -1,0 +1,10 @@
+.aboutPicture {
+    float: right;
+    width: 45%;
+    margin-top: 60px;
+}
+
+.aboutText {
+    float: left;
+    width: 45%;
+}

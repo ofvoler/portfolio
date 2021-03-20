@@ -1,0 +1,51 @@
+@import "../css/typography.css";
+
+body {
+    color: #000000;
+    font-family: "Montserrat Regular", Helvetica, sans-serif;
+    font-weight: normal;
+    word-wrap: break-word;
+    font-kerning: normal;
+}
+
+div {
+    font-family: "Montserrat Regular", Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: "Montserrat ExtraBold", Helvetica, sans-serif;   
+    font-size: 60px;
+    margin-top: 60px;
+}
+
+h2 {
+    font-family: "Montserrat ExtraBold", Helvetica, sans-serif;   
+    font-size: 40px;
+    /* text-transform: uppercase; */
+}
+
+h3 {
+    font-family: "Montserrat SemiBold", Helvetica, sans-serif;  
+    font-size: 30px; 
+}
+
+h4 {
+    font-family: "Montserrat SemiBold", Helvetica, sans-serif;  
+    font-size: 24px;
+}
+
+h5 {
+    font-family: "Montserrat SemiBold", Helvetica, sans-serif;   
+    font-size: 20px;
+}
+
+h6 {
+    font-family: "Montserrat SemiBold", Helvetica, sans-serif;  
+    color: #54595F;
+    font-size: 18px;
+}
+
+p {
+    font-family: "Montserrat Regular", Helvetica, sans-serif;   
+    font-size: 18px;
+}
