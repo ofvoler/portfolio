@@ -1,6 +1,6 @@
 ---
 title: "Mobile UX/UI"
-date: "2021-03-19"
+date: "2021-03-01"
 tags: "portfolio, ux-ui"
 image: "https://oliviavoler.com/wp-content/uploads/2021/02/fresh-portfolio-tile-scaled-1.png"
 
