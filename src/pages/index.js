@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { css } from "@emotion/react"
 import Layout from "../components/layout"
 import PortfolioTile from "../components/portfolioTile"
 import '../css/styles.css'

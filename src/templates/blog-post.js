@@ -10,6 +10,7 @@ export default function BlogPost({ data }) {
       <div 
         css={css`
           margin-top: 50px;
+          margin-bottom: 100px;
         `}
       >
           <h1>{post.frontmatter.title}</h1>
