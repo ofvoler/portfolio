@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import { css } from "@emotion/react"
 import Layout from "../components/layout"
 import PortfolioTile from "../components/portfolioTile"
+import '../css/styles.css'
 
 export default function Home({ data }) {
   console.log(data)
@@ -13,33 +14,16 @@ export default function Home({ data }) {
         <br />
         <br />
 
-        <h1
-          css={css`
-            display: inline-block;
-            margin-top: 60px;
-            margin-bottom: 20px;
-            font-size: 80px;
-            color: #8bbde6;
-          `}
-        >
-          Hi, I'm Olivia.
-        </h1>
-        <h3
-          css={css`
-            font-size: 20px;
-            margin-bottom: 80px;
-          `}
-        >designer & developer  </h3>
+        <h1 className="homeMainTitle"> Hi, I'm Olivia </h1>
+        <p className="homeSubtitle"> 
+          a 
+          <span style={{ fontFamily: "Montserrat SemiBold" }} > designer & developer </span> 
+          located in Boston, MA
+        </p>
 
         <h3>Portfolio</h3>
 
-        <div
-          css={css `
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-          `}
-        >
+        <div className="portfolioTileFormat">
           {data.allMarkdownRemark.edges.map(({ node }) => (
             <PortfolioTile
             image={node.frontmatter.image}
