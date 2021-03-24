@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby";
 import { css } from "@emotion/react"
 import Layout from "../components/layout"
-import '../css/blog-styles.module.css'
+import '../css/portfolio-page-styles.module.css'
 
 export default function BlogPost({ data }) {
     const post = data.markdownRemark
