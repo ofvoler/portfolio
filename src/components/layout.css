@@ -56,6 +56,10 @@ p {
     padding-top: 40px;
 }
 
+.content {
+    margin-bottom: 100px;
+}
+
 .headerSiteName {
     margin-bottom: 20px;
     display: inline-block;

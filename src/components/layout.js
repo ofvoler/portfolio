@@ -26,7 +26,9 @@ export default function Layout({ children }) {
         <Link to={`/about/`} className="headerLink rightmost"> About me </Link>
         <Link to={`/`} className="headerLink"> Portfolio </Link>
       </div>
-      {children}
+      <div className="content">
+        {children}
+      </div>
       <div className="footer">
         <a href="https://www.linkedin.com/in/oliviavoler/" _target="blank" className="footerLink"><FaLinkedin/></a>
         <a href="https://github.com/ofvoler" _target="blank" className="footerLink"><FaGithub/></a>
