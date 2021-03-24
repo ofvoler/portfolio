@@ -37,7 +37,6 @@ export default function Layout({ children }) {
         <p className="copyright">© 2021 Olivia Voler</p>
         <div className="madeIn">Made with <span className="heart">❤️</span> in Gatsby</div>
       </div>
-      
     </div>
   )
 }
