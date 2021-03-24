@@ -1,14 +1,11 @@
 ---
 title: "Mobile UX/UI"
-date: "2021-03-01"
+year: 2020
 tags: "portfolio, ux-ui"
 image: "https://oliviavoler.com/wp-content/uploads/2021/02/fresh-portfolio-tile-scaled-1.png"
+order: 1
 
 ---
-
-### 2020
-
-<br />
 
 Work with a small startup team to create simple branding and a prototype for their food waste app. 
 

@@ -1,12 +1,11 @@
 ---
 title: "Graphic identity"
-date: "2021-01-01"
+year: 2020
 tags: "portfolio, visual-design"
 image: "https://oliviavoler.com/wp-content/uploads/2020/06/button-mockup-smaller-scaled.jpg"
+order: 3
 
 ---
-
-### Spring 2020
 
 <img src="https://oliviavoler.com/wp-content/uploads/2020/06/button-mockup-smaller-scaled.jpg" alt="" />
 

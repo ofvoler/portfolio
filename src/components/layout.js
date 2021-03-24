@@ -55,6 +55,7 @@ export default function Layout({ children }) {
             background-position: 0 100%;
             background-repeat: repeat-x;
             background-size: 4px 4px;
+            color: black;
           }
         `}
       >
@@ -78,6 +79,7 @@ export default function Layout({ children }) {
             background-position: 0 100%;
             background-repeat: repeat-x;
             background-size: 4px 4px;
+            color: black;
           }
         `}
       >

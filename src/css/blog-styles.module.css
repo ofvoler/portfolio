@@ -1,0 +1,9 @@
+a {
+    color: #8bbde6;
+    text-decoration: none;
+}
+
+a:hover {
+    /* color: #297abd; */
+    color: red;
+}
