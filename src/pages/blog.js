@@ -47,7 +47,7 @@ export const query = graphql`
             ) {
             edges {
                 node {
-                    excerpt (truncate: false, pruneLength: 80)
+                    excerpt (truncate: false, pruneLength: 65)
                     frontmatter {
                         title
                         date(formatString: "MM/DD/YYYY")
