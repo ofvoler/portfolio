@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import '../css/blog-styles.css'
 
@@ -23,13 +23,17 @@ export default function Blog({ data }) {
                 </p>
             </div>
             {data.allMarkdownRemark.edges.map(({ node }, index) => (
-                <div className="blog-link">
-                    <div className="blog-title">{node.frontmatter.title}</div>
-                    <div className="blog-subtitle">
-                        <span>{node.frontmatter.date} • </span>
-                        <span>{node.excerpt}</span>
+                <Link
+                    to={node.fields.slug}
+                >
+                    <div className="blog-link">
+                        <div className="blog-title">{node.frontmatter.title}</div>
+                        <div className="blog-subtitle">
+                            <span>{node.frontmatter.date} • </span>
+                            <span>{node.excerpt}</span>
+                        </div>
                     </div>
-                </div>
+                </Link>
             ))}
         </Layout>
     )
@@ -39,6 +43,7 @@ export const query = graphql`
     query {
         allMarkdownRemark(
                 filter: { frontmatter: {tags: {eq: "blog"} } }
+                sort: { fields: [frontmatter___date], order: DESC}
             ) {
             edges {
                 node {
@@ -46,6 +51,9 @@ export const query = graphql`
                     frontmatter {
                         title
                         date(formatString: "MM/DD/YYYY")
+                    }
+                    fields {
+                        slug
                     }
                 }
             }
