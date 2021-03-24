@@ -12,6 +12,6 @@ body {
     margin: 0px;
 }
 
-div[role="group"][tabindex] {
+div[id="gatsby-focus-wrapper"][tabindex] {
     height: 100%;
 }
