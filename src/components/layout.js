@@ -34,7 +34,7 @@ export default function Layout({ children }) {
         <a href="https://github.com/ofvoler" _target="blank" className="footerLink"><FaGithub/></a>
         <a href="mailto:ofvoler@gmail.com" _target="blank" className="footerLink"><FaEnvelope/></a>
         <Link to={'/blog/'} className="footerLink"><FaPenSquare/></Link>
-        <p className="copyright">© 2021 Olivia Voler</p>
+        <p className="copyright">© {new Date().getFullYear()} Olivia Voler</p>
         <div className="madeIn">Made with <span className="heart">❤️</span> in Gatsby</div>
       </div>
     </div>
