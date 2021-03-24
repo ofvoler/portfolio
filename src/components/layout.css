@@ -40,11 +40,79 @@ h5 {
 
 h6 {
     font-family: "Montserrat SemiBold", Helvetica, sans-serif;  
-    color: #54595F;
+    color: #3c4858;
     font-size: 18px;
 }
 
 p {
     font-family: "Montserrat Regular", Helvetica, sans-serif;   
     font-size: 18px;
+}
+
+.page-content {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.headerSiteName {
+    margin-bottom: 20px;
+    display: inline-block;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.headerLink {
+    float: right;
+    padding: 2px;
+    text-decoration: none;
+    color: #000000;
+    margin-right: 2rem;
+}
+
+.headerLink.rightmost {
+    margin-right: 0rem;
+}
+
+.headerLink:hover {
+    background:
+        linear-gradient(
+        to bottom, #8bbde6 0%,
+        #8bbde6 100%
+        );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: black;
+}
+
+.footerLink {
+    color: #000000;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.footerLink:hover {
+    color: #8bbde6;
+}
+
+.copyright {
+    float: right;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.madeIn {
+    text-align: center;
+    font-family: "Montserrat SemiBold", Helvetica, sans-serif;
+    font-size: 12px;
+    color: #3c4858;
+    text-transform: uppercase;
+    opacity: 80%;
+    letter-spacing: 1px;
+}
+
+.heart {
+    font-size: 10px;
 }
