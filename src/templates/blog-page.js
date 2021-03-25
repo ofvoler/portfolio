@@ -4,8 +4,12 @@ import { css } from "@emotion/react"
 import Layout from "../components/layout"
 import '../css/portfolio-page-styles.module.css'
 
-export default function PortfolioPost({ data }) {
+export default function BlogPost({ data }) {
     const post = data.markdownRemark
+    
+    // Calculate the blog number - this only works if there are < 100 blogs
+    const slug = post.fields.slug
+    const blogNum = (slug.length == 15 ? slug.substr(slug.length-3, 2) : slug.substr(slug.length-2, 1))
   return (
     <Layout>
       <div 
@@ -15,7 +19,7 @@ export default function PortfolioPost({ data }) {
         `}
       >
           <h2>{post.frontmatter.title}</h2>
-          <h5 style={{ marginBottom: "50px" }}>{post.frontmatter.year}</h5>
+          <h5 style={{ marginBottom: "50px" }}>{post.frontmatter.date} • Blog {blogNum}</h5>
           <div dangerouslySetInnerHTML={{ __html: post.html}} />
       </div>
     </Layout>
@@ -28,7 +32,10 @@ export const query = graphql `
             html
             frontmatter {
                 title
-                year
+                date(formatString: "MM/DD/YYYY")
+            }
+            fields {
+              slug
             }
         }
     }
