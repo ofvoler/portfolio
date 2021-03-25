@@ -17,7 +17,7 @@ export default function Blog({ data }) {
                 <p>
                     If you want to have a discussion about any of these topics, 
                     or you have some ~constructive criticism~ about my writing
-                    (I <em>am</em> a CS major), feel free to shoot me 
+                    (I <em>am</em> a CS major, after all), feel free to shoot me 
                     <a href="mailto:ofvoler@gmail.com?subject=About your blog..." _target="blank"> an email</a>
                     !
                 </p>
