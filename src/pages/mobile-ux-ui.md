@@ -1,7 +1,9 @@
 ---
 title: "Mobile UX/UI"
 year: 2020
-tags: "portfolio, ux-ui"
+tags: 
+    -portfolio
+    -ux-ui
 image: "https://oliviavoler.com/wp-content/uploads/2021/02/fresh-portfolio-tile-scaled-1.png"
 order: 1
 

@@ -1,7 +1,8 @@
 ---
 title: "Amazon Go and Biometrics"
 date: "2021-02-16"
-tags: "blog"
+tags: 
+    -blog
 ---
 
 You’ve heard of Amazon. But have you heard of Amazon Go? These in-person grocery and convenience stores, which debuted in 2018 in Seattle, leverage cameras, weight sensors, and artificial intelligence to help customers with the shopping process. When a customer is done shopping, they just leave. No lines, no cashier, no waiting—the systems automatically calculate what’s in the bag and charge it to the Amazon account. 
