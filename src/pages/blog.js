@@ -42,7 +42,7 @@ export default function Blog({ data }) {
 export const query = graphql`
     query {
         allMarkdownRemark(
-                filter: { frontmatter: {tags: {eq: "blog"} } }
+                filter: { frontmatter: {tags: {eq: "-blog"} } }
                 sort: { fields: [frontmatter___date], order: DESC}
             ) {
             edges {
