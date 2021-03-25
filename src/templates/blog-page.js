@@ -1,15 +1,15 @@
 import React from "react"
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import { css } from "@emotion/react"
 import Layout from "../components/layout"
-import '../css/portfolio-page-styles.module.css'
+import '../css/blog-styles.css'
 
 export default function BlogPost({ data }) {
     const post = data.markdownRemark
-    
+
     // Calculate the blog number - this only works if there are < 100 blogs
     const slug = post.fields.slug
-    const blogNum = (slug.length == 15 ? slug.substr(slug.length-3, 2) : slug.substr(slug.length-2, 1))
+    const blogNum = (slug.length === 15 ? slug.substr(slug.length-3, 2) : slug.substr(slug.length-2, 1))
   return (
     <Layout>
       <div 
@@ -21,6 +21,9 @@ export default function BlogPost({ data }) {
           <h2>{post.frontmatter.title}</h2>
           <h5 style={{ marginBottom: "50px" }}>{post.frontmatter.date} • Blog {blogNum}</h5>
           <div dangerouslySetInnerHTML={{ __html: post.html}} />
+          <Link to={'/blog'} className="blogHomeButtonLink">
+            <div className="blogHomeButton">Back to blog home</div>
+          </Link>
       </div>
     </Layout>
   )
