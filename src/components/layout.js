@@ -35,7 +35,7 @@ export default function Layout({ children }) {
         <a href="mailto:ofvoler@gmail.com" _target="blank" className="footerLink"><FaEnvelope/></a>
         <Link to={'/blog/'} className="footerLink"><FaPenSquare/></Link>
         <p className="copyright">© {new Date().getFullYear()} Olivia Voler</p>
-        <div className="madeWith">Made with <span className="heart">❤️</span> in Gatsby</div>
+        <div className="madeWith">Made with <span className="heart">❤️</span> by Olivia</div>
       </div>
     </div>
   )
