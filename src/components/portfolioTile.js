@@ -1,14 +1,14 @@
 import React from "react"
-import tileStyles from "./portfolioTile.module.css"
 import { Link } from "gatsby";
+import "./portfolioTile.css"
 
 export default function PortfolioTile(props) {
   return (
-    <div className={tileStyles.tile}>
+    <div className="portfolioTile">
       <Link to={props.slug}>
         <div>
-          <img className={tileStyles.image} src={props.image} alt={props.alt}></img>
-          <div className={tileStyles.tileName}>{props.name}</div>
+          <img className="portfolioTileImage" src={props.image} alt={props.alt}></img>
+          <div className="portfolioTileName">{props.name}</div>
         </div>
       </Link>
     </div>

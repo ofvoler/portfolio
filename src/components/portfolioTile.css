@@ -1,17 +1,17 @@
-.image {
+.portfolioTile {
+  flex: 0 31%;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.portfolioTileImage {
   border-radius: 32px;
   height: 100%;
   width: 100%;
   margin: 0px;
 }
 
-.tile {
-  flex: 0 31%;
-  margin-bottom: 2%;
-  position: relative;
-}
-
-.tileName {
+.portfolioTileName {
   color: #54595F;
   font-size: 24px;
   font-family: "Montserrat SemiBold", Helvetica, sans-serif;
@@ -23,11 +23,11 @@
   left: 10%;
 }
 
-.tile:hover img {
+.portfolioTile:hover img {
   opacity: .2;
 }
 
-.tile:hover div {
+.portfolioTile:hover div {
   display: block;
   animation-name: on-hover;
   animation-duration: .4s;
