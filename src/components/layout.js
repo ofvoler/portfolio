@@ -30,12 +30,12 @@ export default function Layout({ children }) {
         {children}
       </div>
       <div className="footer">
-        <a href="https://www.linkedin.com/in/oliviavoler/" _target="blank" className="footerLink"><FaLinkedin/></a>
-        <a href="https://github.com/ofvoler" _target="blank" className="footerLink"><FaGithub/></a>
-        <a href="mailto:ofvoler@gmail.com" _target="blank" className="footerLink"><FaEnvelope/></a>
-        <Link to={'/blog/'} className="footerLink"><FaPenSquare/></Link>
+        <a href="https://www.linkedin.com/in/oliviavoler/" _target="blank" className="footerLink" aria-label="LinkedIn icon"><FaLinkedin/></a>
+        <a href="https://github.com/ofvoler" _target="blank" className="footerLink" aria-label="GitHub icon"><FaGithub/></a>
+        <a href="mailto:ofvoler@gmail.com" _target="blank" className="footerLink" aria-label="Email icon"><FaEnvelope/></a>
+        <Link to={'/blog/'} className="footerLink" aria-label="Blog icon"><FaPenSquare/></Link>
         <p className="copyright">© {new Date().getFullYear()} Olivia Voler</p>
-        <div className="madeWith">Made with <span className="heart">❤️</span> by Olivia</div>
+        <div className="madeWith">Made with <span className="heart" role="img" aria-label="heart">❤️</span> by Olivia</div>
       </div>
     </div>
   )
