@@ -22,9 +22,20 @@ Based off of mockups and a test version of the app, create high-fidelity mockups
 
 Provide guidance and feedback on initial versions of the app to ensure that they are following the standards of the mockups.
 
+<br>
+
 ##### Existing materials
 
 The app had already been primitively started when I joined, but the team wanted to restart completely with a new coding language and new UI, so that’s where I was brought in. Here are a few screenshots of the existing UI at the time, and mockups to improve it.
+
+![Photo of existing materials](../images/fresh-existing-materials.png)
+
+![Photo of existing materials](../images/old-mockups-1.jpeg)
+
+![Photo of page titled 'Add Food Item'](../images/old-1.png)
+![Photo of page titled 'Add Food Item'](../images/old2.png)
+
+<br>
 
 ##### Branding
 
@@ -40,6 +51,8 @@ We ended up going with the logo with the orange, with the lone orange available 
 
 The color scheme relies mainly on the green and orange in the logo. I also drew in the grapefruit color to develop the color gradient that is used on the second round of mockups.
 
+<br>
+
 ##### First round of mockups
 
 The first round of mockups are more of wireframes than mockups. This was the part of the project where the team was deciding on the layout of the app and what would be on each page. As a result, everything is simple, with a lot of white and ideas that aren’t fully fleshed out.
@@ -54,19 +67,25 @@ You can see below what I finally ended up with—I decided to color only the tex
 
 Compared to the materials I was given, I was actually quite happy with this. However, after showing it to potential users, I got feedback that it wasn’t the flow of the app wasn’t very intuitive. Also, it was hard to know how to edit or delete a food, and the statistics weren’t very helpful. From this, I decided that the interface should definitely be improved. 
 
+<br>
+
 ##### Second round of mockups
 
 The app went through a huge transformation from the first round of mockups to the second round. I started to actually incorporate the branding, give it more of a modern look, and make everything feel more consistent as a whole. 
 
 Although white space is definitely necessary, I incorporated more of the brand colors so it didn’t feel so flat and white. I also utilized the colors gauging food expiry in other places throughout the app to create a more consistent feel.
 
+<br>
+
 ##### Current prototype
 
 Here is the current prototype of the app!
 
 <div>
-            <iframe src="https://www.figma.com/embed?embed_host=shareamp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9R2kp0YuMpmuH98CZAzKxL%2FFresh-mockups-Copy%3Fnode-id%3D275%253A666%26viewport%3D570%252C186%252C0.2009398341178894%26scaling%3Dscale-down" style="width: 100%; height: 800px;" allowfullscreen></iframe>
-        </div>
+    <iframe src="https://www.figma.com/embed?embed_host=shareamp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9R2kp0YuMpmuH98CZAzKxL%2FFresh-mockups-Copy%3Fnode-id%3D275%253A666%26viewport%3D570%252C186%252C0.2009398341178894%26scaling%3Dscale-down" style="width: 100%; height: 800px;" allowfullscreen></iframe>
+</div>
+
+<br>
 
 ##### Takeaways
 
