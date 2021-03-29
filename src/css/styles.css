@@ -35,3 +35,23 @@ li {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+/* Styles for 404 page */
+
+.fourOhFourWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.fourOhFourContent {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.fourOhFourTitle {
+    font-size: 100px;
+    color: #8bbde6;
+    font-family: 'Montserrat ExtraBold';
+}
