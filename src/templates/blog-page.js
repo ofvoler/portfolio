@@ -1,7 +1,8 @@
 import React from "react"
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import { css } from "@emotion/react"
 import Layout from "../components/layout"
+import Button from "../components/button"
 import '../css/blog-styles.css'
 
 export default function BlogPost({ data }) {
@@ -21,9 +22,7 @@ export default function BlogPost({ data }) {
           <h2>{post.frontmatter.title}</h2>
           <h5 style={{ marginBottom: "50px" }}>{post.frontmatter.date} • Blog {blogNum}</h5>
           <div dangerouslySetInnerHTML={{ __html: post.html}} />
-          <Link to={'/blog'} className="blogHomeButtonLink">
-            <div className="blogHomeButton">Back to blog home</div>
-          </Link>
+          <Button buttonLink="/blog" buttonText="Back to blog home"/>
       </div>
     </Layout>
   )
