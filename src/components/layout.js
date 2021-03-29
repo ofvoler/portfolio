@@ -35,7 +35,13 @@ export default function Layout({ children }) {
         <a href="mailto:ofvoler@gmail.com" _target="blank" className="footerLink" aria-label="Email icon"><FaEnvelope/></a>
         <Link to={'/blog/'} className="footerLink" aria-label="Blog icon"><FaPenSquare/></Link>
         <p className="copyright">© {new Date().getFullYear()} Olivia Voler</p>
-        <div className="madeWith">Made with <span className="heart" role="img" aria-label="heart">❤️</span> by Olivia</div>
+        <div className="madeWith">
+          Made with
+          {` `}
+          <span className="heart" role="img" aria-label="heart">❤️</span>
+          {`   `}
+          by Olivia
+        </div>
       </div>
     </div>
   )
