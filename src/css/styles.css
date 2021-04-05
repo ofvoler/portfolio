@@ -55,3 +55,9 @@ li {
     color: #8bbde6;
     font-family: 'Montserrat ExtraBold';
 }
+
+/* portfolio pages */
+
+.portfolioSectionTitle {
+    margin-top: 50px;
+}

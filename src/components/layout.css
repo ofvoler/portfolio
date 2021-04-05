@@ -49,6 +49,11 @@ p {
     font-size: 18px;
 }
 
+img {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
 .page-content {
     margin: 0 auto;
     max-width: 1100px;
