@@ -11,8 +11,8 @@ order: 1
 
 Work with a small startup team to create simple branding and a prototype for their food waste app. 
 
-<img src="https://oliviavoler.com/wp-content/uploads/2020/10/phone-with-groceries-smaller.png" alt="">
-<img src="https://oliviavoler.com/wp-content/uploads/2020/10/flat-lay-mockup@2x.png">
+<img src="https://oliviavoler.com/wp-content/uploads/2020/10/phone-with-groceries-smaller.png" alt="" />
+<img src="https://oliviavoler.com/wp-content/uploads/2020/10/flat-lay-mockup@2x.png" alt="" />
 
 ##### Project
 
@@ -30,10 +30,10 @@ The app had already been primitively started when I joined, but the team wanted 
 
 ![Photo of existing materials](../images/fresh-existing-materials.png)
 
-![Photo of existing materials](../images/old-mockups-1.jpeg)
+![Photo of existing materials](https://res.cloudinary.com/ofvoler/image/upload/v1616990457/fresh-existing-materials.png)
 
-![Photo of page titled 'Add Food Item'](../images/old-1.png)
-![Photo of page titled 'Add Food Item'](../images/old2.png)
+![Photo of page titled 'Add Food Item'](../images/fresh-old-mockups-1.jpeg)
+![Photo of page titled 'Add Food Item'](../images/fresh-old-mockups-2.png)
 
 <br>
 
