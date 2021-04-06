@@ -61,3 +61,23 @@ li {
 .portfolioSectionTitle {
     margin-top: 50px;
 }
+
+.portfolioPageImage {
+    padding: 30px;
+}
+
+.portfolioPageImage.half {
+    width: 50%;
+}
+
+.portfolioPageImage.quarter {
+    width: 25%;
+}
+
+.portfolioPageImage.threequarter {
+    width: 75%;
+}
+
+.portfolioPageImage.third {
+    width: calc(100% / 3);
+}
